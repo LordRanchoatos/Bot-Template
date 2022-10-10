@@ -1,5 +1,5 @@
 {
-    "name": "project-name-here",
+    "name": "MadHatter-Template",
     "version": "1.0.0",
     "description": "description here",
     "main": "app.js",
@@ -42,7 +42,7 @@
         "@types/node": "^16.11.26",
         "dayjs": "^1.11.0",
         "dd-trace": "^1.7.1",
-        "discord.js": "^13.6.0",
+        "discord.js": "^14.0.3",
         "dotenv": "^14.3.2",
         "form-data": "^4.0.0",
         "mongodb": "^4.5.0",
@@ -64,8 +64,8 @@
         "webpack": "^5.72.0"
     },
     "engines": {
-        "pnpm": "6.x",
-        "node": "16.x"
+        "pnpm": "7.x",
+        "node": "18.x"
     },
     "engineStrict": true
 }
