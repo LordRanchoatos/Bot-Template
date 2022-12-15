@@ -65,7 +65,7 @@
     },
     "engines": {
         "pnpm": "7.x",
-        "node": "18.x"
+        "node": "16.x"
     },
     "engineStrict": true
 }
