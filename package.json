@@ -64,7 +64,7 @@
         "webpack": "^5.72.0"
     },
     "engines": {
-        "pnpm": "7.x",
+        "pnpm": "6.x",
         "node": "16.x"
     },
     "engineStrict": true
