@@ -20,7 +20,6 @@ export default class implements DiscordEvent {
 			
       Log.info('Bot is ready!');
     } catch (e) {
-      //comment
       LogUtils.logError('Error processing event ready', e);
     }
   }
