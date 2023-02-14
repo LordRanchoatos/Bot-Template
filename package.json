@@ -1,6 +1,6 @@
 {
     "name": "MadHatter-Template",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "description here",
     "main": "app.js",
     "private": true,
@@ -9,9 +9,9 @@
         "test": "jest",
         "start:qa": "node -r dotenv/config --trace-warnings dist/app/App.js dotenv_config_path=.env.qa",
         "start:prod": "node -r dotenv/config --trace-warnings dist/app/App.js dotenv_config_path=.env.prod",
-        "prestart": "pnpm install && pnpm build && pnpm lint",
-        "pretest": "pnpm install && pnpm build",
-        "dev": "pnpm prestart && pnpm start",
+        "prestart": "yarn && yarn build && yarn lint",
+        "pretest": "yarn && yarn build",
+        "dev": "yarn prestart && yarn start",
         "start": "node --trace-warnings -r dotenv/config dist/app/App.js",
         "force-start": "tsc -p tsconfig.json && node -r dotenv/config dist/app/App.js",
         "lint": "eslint . --ext .ts",
@@ -64,7 +64,7 @@
         "webpack": "^5.72.0"
     },
     "engines": {
-        "pnpm": "6.x",
+        "yarn": "1.x",
         "node": "16.x"
     },
     "engineStrict": true
